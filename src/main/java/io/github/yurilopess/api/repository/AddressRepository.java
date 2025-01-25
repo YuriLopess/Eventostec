@@ -1,8 +1,9 @@
 package io.github.yurilopess.api.repository;
 
+import io.github.yurilopess.api.domain.address.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface AddressRepository extends JpaRepository<AddressRepository, UUID> {
+public interface AddressRepository extends JpaRepository<Address, UUID> {
 }
